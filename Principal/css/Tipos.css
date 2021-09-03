@@ -15,6 +15,14 @@ img{
 .contenedor{
     margin: 10px;   
 }
+	.contenedor h1{
+	border-left: solid 10px rgb(86, 14, 255);
+	margin: 10px;
+	padding-left: 10px;
+	}
+		.contenedor a{
+	color: black;
+		}
 
 .caja{
     width: 300px;
@@ -46,8 +54,4 @@ img{
 	position: absolute;
 	
 }
-.contenedor h1{
-	border-left: solid 10px rgb(86, 14, 255);
-	margin: 10px;
-	padding-left: 10px;
-}
+

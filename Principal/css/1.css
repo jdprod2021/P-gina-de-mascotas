@@ -126,6 +126,9 @@ ul{
 .pie img{
     margin: auto;
 }
+.pie a{
+    color: black;
+}
 .show{
     position: fixed;
     height: 40px;
