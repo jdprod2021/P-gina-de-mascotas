@@ -5,6 +5,9 @@
     flex: auto;
 	margin-top: 30px;
 }
+img{
+    margin: 10px;
+}
 .contenedor{
     margin: auto;   
 }

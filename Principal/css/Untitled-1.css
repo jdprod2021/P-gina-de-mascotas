@@ -5,6 +5,9 @@ main{
     background: #dfd6ff;
     border-radius: 0.5%;
 }
+img{
+    margin: 10px;
+}
 article {
     font-size: 30px;
     margin: 20px;
