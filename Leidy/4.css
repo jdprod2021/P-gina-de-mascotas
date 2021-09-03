@@ -1,3 +1,7 @@
+
+
+
+
 h1 {
     font-family:Comic Sans MS;
     color:#006A00;
@@ -44,7 +48,7 @@ header{
     }
 
     .nav-menu li:last-child{
-        background-color: cadetblue;
+        background-color:  #246355;
         border: 2px solid 
         hsl(120, 23%, 95%)
         ;
@@ -56,4 +60,170 @@ header{
         background: transparent;
         border: 2px solid #006A00;
     }
+   /*ESTILO DE PAGUINA*/
+
+
+section {
+   width: 100%;
+   margin-bottom: 25px; 
+}
+#imagenA { 
+    margin-top: 50px;
+    position: relative;
+}
+
+#imagenA img {
+    width: 100%;
+    height: 100%;
+}
+
+#imagenA .contenedor{
+    position: absolute;
+    top: 50%;
+    left:50% ;
+    transform: translateX(-95%) translateY(-50%);
+    color:#fff ;
+
+}
+#imagenA h2{
+    font-size:30px ;
+}
+
+
+#imagenA a { 
+    display: block;
+    width: 100px;
+    color: #fff;
+    text-decoration: none;
+    padding: 7px;
+    margin-top: 10px;
+    border: 3px solid #fff;
+
+}
+#imagenA a:hover{
+background: rgba(51, 51, 51, 0.7);
+
+}
+@media(min-width: 480px){
+    #imagenA h2 {
+        font-size:40px ;
+
+    }
+    #imagenA a{
+        margin-top: 25px;
+    }
+}
+@media(min-width: 760px){
+    #imagenA{
+        height: 300px;
+        overflow: hidden;
+    }
+    #imagenA img{
+     height:auto ;
+     margin-top: -100px;
+    }
+}
+
+
+/*TEXTO*/
+#inf h3,h4 {
+    text-align: center;
+
+}
+#adopcion{
+    text-align: center;
+} 
+/*TRES IMAGENES*/
+
+#inf .contenedor1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+#inf article {
+    margin: 15px;
+}
+#inf img {
+    width: 100%;
+    max-width: 280px;
+
+}
+/*CAJA GRIS DE ABAJO*/
+#caja{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+#caja .contenedor2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.caja-pet {
+    margin: 20px;
+}
+.caja-pet img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+
+}
+/*TEXTO DE ABAJO*/
+#adopcion1{
    
+    background: white;
+    color: black;
+} 
+/*TABLA*/
+  
+  
+  
+  #tabla2{
+    margin: 150px auto;
+    width: 600px;
+  }
+  table{
+    width: 15%;
+    
+    text-align: center;
+    border-color: black;
+    
+  }
+  th,td{
+    
+    padding: 20px;
+
+  }
+  thead{
+    background-color: #246355;
+    color: white;
+    border-bottom: solid 5px #0f362D;
+
+  }
+  tr:ntd-child(even){
+    background-color: #ddd;
+  }
+  tr:hover td {
+    background-color: #369681;
+    color: white;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
