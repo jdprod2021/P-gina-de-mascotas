@@ -1,15 +1,19 @@
 .opciones{
     flex: auto;
-    align-items: center;  
+    align-items: center; 
+	justify-content: center;
+	flex-wrap: wrap; 
     display: flex;
     flex: auto;
 	margin-top: 30px;
+	margin-left: 150px;
+    margin-right: 150px;
 }
 img{
     margin: 10px;
 }
 .contenedor{
-    margin: auto;   
+    margin: 10px;   
 }
 
 .caja{
@@ -31,7 +35,6 @@ img{
 	height: 100%;
 	margin: 0%;
 	position: relative;
-	bottom: 55px;
 }
 .caja h1{
 	position: relative;
@@ -42,4 +45,9 @@ img{
 .caja p{
 	position: absolute;
 	
+}
+.contenedor h1{
+	border-left: solid 10px rgb(86, 14, 255);
+	margin: 10px;
+	padding-left: 10px;
 }
