@@ -1,6 +1,9 @@
+/*Texto*/
 h1 {
-    font-family:Comic Sans MS;
+    text-align: center;
+    font-family:Rockwell;
     color:#374F59;
+
     } 
     *{
         padding: 0;
@@ -9,6 +12,10 @@ h1 {
         list-style: none;
 
     }
+h2 {
+    font-family: Rockwell;
+    text-align: center;
+         }
 
 a,li{
     font-family: 
