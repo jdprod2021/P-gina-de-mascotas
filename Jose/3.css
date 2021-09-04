@@ -1,6 +1,6 @@
 /*Texto*/
 h1 {
-    text-align: center;
+    text-align: left;
     font-family:Rockwell;
     color:#374F59;
 
@@ -16,11 +16,21 @@ h2 {
     font-family: Rockwell;
     text-align: center;
          }
+p{
+    font-family: Rockwell;
+}
 
-a,li{
+a{
     font-family: 
     'Rockwell' ;
+    color: black;
 }
+li {
+    list-style: circle;
+    font-family:'Rockwell';
+    color: black;
+}
+
 .logo-header img{
     width: 150px;
 }
@@ -32,6 +42,8 @@ header{
     padding: .5rem 2rem;
 
 }
+
+
 
 .nav-menu ul{
     display: flex;
