@@ -1,18 +1,18 @@
+/*Texto*/
 h1 {
-    font-family:Helvetica;
-    color:#006A00;
-    } 
-    *{
-        padding: 0;
-        margin: 0;
-        text-decoration: none;
-        list-style: none;
+    text-align: center;
+    font-family:Rockwell;
+    color:#374F59;
 
+    } 
+h2 {
+    font-family: Rockwell;
+    text-align: center;
     }
 
-a,li{
-    font-family: 
-    'Rockwell' ;
+a,.lista li{
+    font-family: Rockwell;
+    color: black;   
 }
 .logo-header img{
     width: 150px;
@@ -26,33 +26,43 @@ header{
 
 }
 
-.nav-menu ul{
-    display: flex;
-    align-items: center;
+.principal
+{
+    position: relative;
+    float: left;
+    width: 800px;
+    margin-left: 20px;
 }
-.nav-menu li {
-    margin-right: 1.5rem;
+
+.cajaderecha
+{
+    position: relative; 
+    float: right;  
 }
-.nav-menu a{
-    color: hsl(203, 68%, 96%);
-    }
-   
-   a:hover {
-   color: hsl(320, 78%, 69%);
-   
+.lista{
+
+    font-family: Rockwell;
+    color: black;
+    list-style: circle;
+
     }
 
-    .nav-menu li:last-child{
-        background-color:  #246355;
-        border: 2px solid 
-        hsl(120, 16%, 96%)
-        ;
+#intermedio
+{
+    margin-top: 10px;
+}
 
-        padding: .25rem .75rem;
-        border-radius: .2rem;
-    }
-    .nav-menu li :last-child;:hover{
-        background: transparent;
-        border: 2px solid #006A00;
-    }
-   
+#cajainicio
+{
+    margin-top: 75px;
+    position: relative; 
+}
+
+#cajainicio .contimagen
+{
+    position: absolute;
+    top: 50%;
+    left:50% ;
+    transform: translateX(-95%) translateY(-50%);
+    color:#fff ;
+}
