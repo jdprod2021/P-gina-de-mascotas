@@ -5,24 +5,15 @@ h1 {
     color:#374F59;
 
     } 
-    *{
-        padding: 0;
-        margin: 0;
-        text-decoration: none;
-        list-style: none;
-
-    }
 h2 {
     font-family: Rockwell;
     text-align: center;
-         }
+    }
 
-a,li{
+a,.lista li{
     font-family: Rockwell;
-    color: black;
-
+    color: black;   
 }
-
 .logo-header img{
     width: 150px;
 }
@@ -35,24 +26,20 @@ header{
 
 }
 
-#principal
+.principal
 {
     position: relative;
     float: left;
-    width: 500px;
+    width: 800px;
+    margin-left: 20px;
 }
 
 #cajaderecha
 {
     position: relative; 
-    float: right;
-   
+    float: right;  
 }
-
-
-
-
-#lista{
+.lista{
 
     font-family: Rockwell;
     color: black;
@@ -79,35 +66,3 @@ header{
     transform: translateX(-95%) translateY(-50%);
     color:#fff ;
 }
-
-
-.nav-menu ul{
-    display: flex;
-    align-items: center;
-}
-.nav-menu li {
-    margin-right: 1.5rem;
-}
-.nav-menu a{
-    color: hsl(203, 68%, 96%);
-    }
-   
-   a:hover {
-   color: hsl(320, 78%, 69%);
-   
-    }
-
-    .nav-menu li:last-child{
-        background-color:  #246355;
-        border: 2px solid 
-        hsl(120, 16%, 96%)
-        ;
-
-        padding: .25rem .75rem;
-        border-radius: .2rem;
-    }
-    .nav-menu li :last-child;:hover{
-        background: transparent;
-        border: 2px solid #006A00;
-    }
-   
