@@ -1,22 +1,33 @@
 /*Texto*/
 h1 {
-    text-align: center;
     font-family:Rockwell;
+    text-align: center;
     color:#374F59;
 
     } 
 h2 {
     font-family: Rockwell;
-    text-align: center;
+    text-align: left;
+    color:#374F59;
     }
 
 a,.lista li{
     font-family: Rockwell;
-    color: black;   
+    color: darkred;
+
 }
+
+
 .logo-header img{
     width: 150px;
 }
+p {
+    font-family: Rockwell;
+    text-align: left;
+}
+
+
+/* Contenedores */
 header{
     background-color: #2c2c2c;
     display: flex;
@@ -30,7 +41,7 @@ header{
 {
     position: relative;
     float: left;
-    width: 800px;
+    width: 900px;
     margin-left: 20px;
 }
 
@@ -38,8 +49,11 @@ header{
 {
     position: relative; 
     float: right;  
+     width: 320px;
+    margin-right:20px;
 }
 .lista{
+
 
     font-family: Rockwell;
     color: black;
