@@ -1,3 +1,7 @@
+body {
+    overflow: scroll;
+}
+
 /*Texto*/
 h1 {
     font-family:Rockwell;
