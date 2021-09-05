@@ -72,12 +72,17 @@ background: rgba(51, 51, 51, 0.7);
 #adopcion{
     text-align: center;
 } 
+#adopcion h2{
+   font-family: Britannic Bold;
+} 
 /*TRES IMAGENES*/
+
 
 #inf .contenedor1{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+
 
 }
 #inf article {
@@ -116,11 +121,15 @@ background: rgba(51, 51, 51, 0.7);
    
     background: white;
     color: black;
-} 
+}
+ 
+
+
+
 /*TABLA*/
   
   
-  
+ 
   #tabla2{
     margin: 150px auto;
     width: 600px;
@@ -150,7 +159,6 @@ background: rgba(51, 51, 51, 0.7);
     background-color: #369681;
     color: white;
   }
-
 
 
 
