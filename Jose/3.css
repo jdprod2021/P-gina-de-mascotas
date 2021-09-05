@@ -1,6 +1,6 @@
 /*Texto*/
 h1 {
-    text-align: left;
+    text-align: center;
     font-family:Rockwell;
     color:#374F59;
 
@@ -16,19 +16,11 @@ h2 {
     font-family: Rockwell;
     text-align: center;
          }
-p{
-    font-family: Rockwell;
-}
 
-a{
-    font-family: 
-    'Rockwell' ;
+a,li{
+    font-family: Rockwell;
     color: black;
-}
-li {
-    list-style: circle;
-    font-family:'Rockwell';
-    color: black;
+
 }
 
 .logo-header img{
@@ -43,6 +35,50 @@ header{
 
 }
 
+#principal
+{
+    position: relative;
+    float: left;
+    width: 500px;
+}
+
+#cajaderecha
+{
+    position: relative; 
+    float: right;
+   
+}
+
+
+
+
+#lista{
+
+    font-family: Rockwell;
+    color: black;
+    list-style: circle;
+
+    }
+
+#intermedio
+{
+    margin-top: 10px;
+}
+
+#cajainicio
+{
+    margin-top: 75px;
+    position: relative; 
+}
+
+#cajainicio .contimagen
+{
+    position: absolute;
+    top: 50%;
+    left:50% ;
+    transform: translateX(-95%) translateY(-50%);
+    color:#fff ;
+}
 
 
 .nav-menu ul{
