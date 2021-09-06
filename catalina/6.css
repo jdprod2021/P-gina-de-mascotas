@@ -1,0 +1,61 @@
+section{
+    width: 100%;
+}
+#header{
+    margin-top: 25px;
+    position: relative;
+}
+#header img {
+    width: 100%;
+    height: 100%;
+}
+#header .contenedor{
+    position: absolute;
+    top:75%;
+    left: 33%;
+    color:#fff;
+}
+#header h1{
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 70px;
+    text-shadow: 2px 2px 3px black;
+}
+
+#intro .texto{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#intro p{
+    text-align: center;
+    font-family: 'Century Gothic';
+    font-size: 20px;
+}
+
+.list{
+    display: inside;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+#lista1{
+    position: absolute;
+    left: 10%;
+}
+#lista1 li{
+    font-family: Century Gothic;
+    list-style: circle;
+    color: black;
+}
+
+
+#lista2{
+    position: absolute;
+    left: 60%;
+}
+#lista2 li{
+    font-family: Century Gothic;
+    list-style: circle;
+    color: black;
+}
