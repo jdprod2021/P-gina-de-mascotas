@@ -128,17 +128,23 @@ background: rgba(51, 51, 51, 0.7);
 
 /*TABLA*/
   
-  
+  #tabla22{
+    background: #333;
+
+  }
+  #tabla22 h2{
+color: white;
+  }
  
   #tabla2{
-    margin: 150px auto;
+    margin: 150px auto; 
     width: 600px;
   }
   table{
     width: 15%;
     
     text-align: center;
-    border-color: black;
+   
     
   }
   th,td{
@@ -152,9 +158,7 @@ background: rgba(51, 51, 51, 0.7);
     border-bottom: solid 5px #0f362D;
 
   }
-  tr:ntd-child(even){
-    background-color: #ddd;
-  }
+  
   tr:hover td {
     background-color: #369681;
     color: white;
