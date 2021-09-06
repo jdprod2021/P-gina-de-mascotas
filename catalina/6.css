@@ -32,3 +32,33 @@ section{
     font-family: 'Century Gothic';
     font-size: 20px;
 }
+
+#lista1{
+    position: absolute;
+    left: 10%;
+}
+#lista1 li{
+    font-family: Century Gothic;
+    list-style: circle;
+    color: black;
+}
+#lista1 .list{
+    display: inside;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+#lista2{
+    position: absolute;
+    left: 60%;
+}
+#lista2 li{
+    font-family: Century Gothic;
+    list-style: circle;
+    color: black;
+}
+#lista2 .list{
+    display: inside;
+    justify-content: left;
+    flex-wrap: wrap;
+}
