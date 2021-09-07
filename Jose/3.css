@@ -68,12 +68,5 @@ p {
     position: relative; 
 }
 
-#cajainicio .contimagen
-{
-    position: absolute;
-    top: 50%;
-    left:50% ;
-    transform: translateX(-95%) translateY(-50%);
-    color:#fff ;
-}
+
 
