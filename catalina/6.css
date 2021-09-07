@@ -1,3 +1,8 @@
+body{
+overflow-x: hidden;
+
+}
+
 section{
     width: 100%;
 }
@@ -79,3 +84,4 @@ section{
     position: absolute;
     top: 340%;
 }
+
