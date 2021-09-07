@@ -1,2 +1,19 @@
-
-   
+h1{
+   font-family: Gill Sans MT;
+   }
+h2{
+   font-family: Gill Sans Mt;
+   color:purple;
+   }
+p{
+  font-family: Gill Sans Mt;
+  font-size: 20px;
+   }
+marquee{
+        font-family: Gill Sans Mt;
+        font-size: 25px;
+        background-color: pink;
+        }
+body{
+     background-attachment: fixed;
+}
