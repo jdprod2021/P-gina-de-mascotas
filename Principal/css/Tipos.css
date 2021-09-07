@@ -9,6 +9,41 @@
 	margin-left: 150px;
     margin-right: 150px;
 }
+.Tiposimg{
+	margin-top: 75px;
+	/*https://puppypets.com.co/tipos-de-mascotas-domesticas/*/
+	background-image: url(../img/animals-2222007_1920.jpg);
+	background-repeat: no-repeat;
+	
+	background-attachment: fixed;
+	background-position-y: -40px;
+	height: 500px;
+}
+.Tiposimg h1{
+	position: relative;
+	top: 50%;
+	right: 20%;
+	font-size: 50px;
+	text-shadow: 5px 4px rgb(245, 238, 238);
+}
+.Tiposimg h4{
+	position: relative;
+	top: 43%;
+	left: 16%;
+	font-size: 35px;
+	text-shadow: 5px 4px rgb(245, 238, 238);
+}
+.Tiposimg a{
+	box-shadow: 4px 5px black;
+	text-shadow: none;
+	padding: 3px;
+	color: black;
+	background: rgb(174, 174, 247);
+}
+.Tiposimg a:hover{
+	color: blueviolet;
+	border-bottom: solid 2px rgb(151, 107, 253);
+}
 img{
     margin: 10px;
 }
@@ -19,6 +54,7 @@ img{
 	border-left: solid 10px rgb(86, 14, 255);
 	margin: 10px;
 	padding-left: 10px;
+	height: 50px;
 	}
 		.contenedor a{
 	color: black;
