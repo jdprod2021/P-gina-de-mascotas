@@ -1,3 +1,6 @@
+body{
+	overflow-x: hidden;
+}
 .opciones{
     flex: auto;
     align-items: center; 
@@ -13,8 +16,7 @@
 	margin-top: 75px;
 	/*https://puppypets.com.co/tipos-de-mascotas-domesticas/*/
 	background-image: url(../img/animals-2222007_1920.jpg);
-	background-repeat: no-repeat;
-	
+	background-repeat: no-repeat;	
 	background-attachment: fixed;
 	background-position-y: -40px;
 	height: 500px;

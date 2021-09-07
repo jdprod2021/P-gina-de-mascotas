@@ -66,3 +66,6 @@ td:hover{
     background: rgb(194, 164, 250);
     cursor: pointer;
 }
+em{
+    font-size: 30px;
+}
