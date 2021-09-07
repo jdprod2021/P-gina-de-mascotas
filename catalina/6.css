@@ -23,7 +23,7 @@ section{
 }
 
 #intro .texto{
-    display: flex;
+    display: inside;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -61,11 +61,21 @@ section{
 
 #video1{
     position: absolute;
-    top: 165%;
+    top: 260%;
     left:7%;
 }
 #video2{
     position: absolute;
-    top: 165%;
+    top: 260%;
     left:55%;
+}
+#imagen1{
+    position: absolute;
+    top: 170%;
+    left: 20%;
+    width: 100%;
+}
+.pie{
+    position: absolute;
+    top: 340%;
 }
