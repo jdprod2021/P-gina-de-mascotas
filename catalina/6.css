@@ -11,7 +11,7 @@ section{
 }
 #header .contenedor{
     position: absolute;
-    top:75%;
+    top:65%;
     left: 33%;
     color:#fff;
 }
@@ -49,7 +49,6 @@ section{
     color: black;
 }
 
-
 #lista2{
     position: absolute;
     left: 60%;
@@ -58,4 +57,10 @@ section{
     font-family: Century Gothic;
     list-style: circle;
     color: black;
+}
+
+#video{
+    position: absolute;
+    top: 165%;
+    left:30%;
 }
