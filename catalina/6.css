@@ -59,8 +59,13 @@ section{
     color: black;
 }
 
-#video{
+#video1{
     position: absolute;
     top: 165%;
-    left:30%;
+    left:7%;
+}
+#video2{
+    position: absolute;
+    top: 165%;
+    left:55%;
 }
